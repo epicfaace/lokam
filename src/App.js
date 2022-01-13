@@ -138,8 +138,8 @@ function App() {
   return (
     <ErrorBoundary>
       <Canvas>
-        {/* <ambientLight color={0xcccccc} /> */}
-        <directionalLight color={0xffffff} intensity={.2} /> 
+        <ambientLight color={0xcccccc} />
+        <directionalLight color={0xffffff} intensity={2} /> 
         <mesh
           geometry={geometry}
           material={material}

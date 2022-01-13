@@ -25,7 +25,8 @@ SOFTWARE.
 
 import { useFrame, useThree } from '@react-three/fiber'
 import * as React from 'react'
-import { FlyControls as FlyControlsImpl } from 'three/examples/jsm/controls/FlyControls'
+// import { FlyControls as FlyControlsImpl } from 'three/examples/jsm/controls/FlyControls'
+import { FirstPersonControls as FlyControlsImpl } from 'three/examples/jsm/controls/FirstPersonControls'
 
 export const FlyControls = React.forwardRef((props, ref) => {
   const { onChange, ...rest } = props
